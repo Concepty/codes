@@ -1,0 +1,12 @@
+		<Directory = glob_example>
+			<File = ccc.exe/>
+			<File = aaa.py/>
+			<File = bbb.py/>
+			<Directory = Crypto>
+				<Directory = Drypto>
+					<File = fff.py/>
+					<File = eee.pyd/>
+					<File = ddd.dll/>
+				<Directory END>
+			<Directory END>
+		<Directory END>
